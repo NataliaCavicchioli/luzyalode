@@ -68,7 +68,6 @@ export const ButtonAction = styled(Link)(({ theme }) => ({
   justifyContent: "center",
   lineHeight: "1.1875rem",
 
-  marginBottom: "1.5rem",
   marginTop: "1.5rem",
   padding: "1.25rem 1.875rem",
   textDecoration: "none",
@@ -95,7 +94,6 @@ export const SquareContainer = styled(Box)(({ theme }) => ({
   justifyContent: "center",
 
   maxWidth: "31.25rem",
-  maxHeight: "18.75rem",
   padding: "1.5rem",
 }));
 
