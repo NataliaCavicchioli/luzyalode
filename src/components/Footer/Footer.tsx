@@ -1,8 +1,8 @@
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { Typography } from "@mui/material";
 
 import * as S from "./styles";
-import { Link, Typography } from "@mui/material";
 
 export const Footer = () => {
   return (
