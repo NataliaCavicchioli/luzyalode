@@ -1,5 +1,6 @@
-import * as S from "./styles";
+import { WHATSAPP_LINK } from "@/constants";
 import { ButtonAction } from "../Banner/styles";
+import * as S from "./styles";
 
 export const ProductGrid = () => {
   const products = [
@@ -28,11 +29,7 @@ export const ProductGrid = () => {
           </S.ProductBox>
         ))}
       </S.ImagesBox>
-      <ButtonAction
-        sx={{ mb: 8 }}
-        href=" https://wa.me/5511952811275?text=Olá,%20gostaria%20de%20agendar%20uma%20massagem!%20"
-        target="_blank"
-      >
+      <ButtonAction sx={{ mb: 8 }} href={WHATSAPP_LINK} target="_blank">
         Agende sua sessão
       </ButtonAction>
     </S.ProductsGridContainer>

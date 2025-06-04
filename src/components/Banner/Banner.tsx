@@ -1,6 +1,7 @@
 import { Box, Typography, useMediaQuery, useTheme } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
+import { WHATSAPP_LINK } from "@/constants";
 import * as S from "./styles";
 
 export const Banner = () => {
@@ -62,7 +63,7 @@ export const Banner = () => {
           </Box>
           <S.ButtonAction
             sx={{ gap: ".5rem" }}
-            href=" https://wa.me/5511952811275?text=Olá,%20gostaria%20de%20agendar%20uma%20massagem!%20"
+            href={WHATSAPP_LINK}
             target="_blank"
           >
             <WhatsAppIcon />
