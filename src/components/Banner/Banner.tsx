@@ -51,12 +51,13 @@ export const Banner = () => {
             sx={{
               color: (theme) => theme.custom_palette.blue.dark,
               fontWeight: 600,
+              textAlign: "center",
             }}
           >
             Promoção de São João
           </Typography>
           <Box display="flex" flexDirection="column">
-            <S.TextSaleContainer mt={2}>
+            <S.TextSaleContainer mt={2} mb={2}>
               • Agende 1h de massagem
             </S.TextSaleContainer>
             <S.TextSaleContainer>• Ganhe +30min extras!</S.TextSaleContainer>
