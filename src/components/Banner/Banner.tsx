@@ -54,7 +54,7 @@ export const Banner = () => {
               textAlign: "center",
             }}
           >
-            Promoção de São João
+            Promoção de São João*
           </Typography>
           <Box display="flex" flexDirection="column">
             <S.TextSaleContainer mt={2} mb={2}>
@@ -70,6 +70,18 @@ export const Banner = () => {
             <WhatsAppIcon />
             Agende sua sessão
           </S.ButtonAction>
+          <Typography
+            variant="subtitle1"
+            sx={{
+              color: (theme) => theme.custom_palette.blue.dark,
+              textAlign: "center",
+              fontSize: ".75rem",
+              marginTop: 1,
+            }}
+          >
+            *Validade da condição especial: Uma promoção por CPF, até
+            15/07/2025.
+          </Typography>
         </S.SquareContainer>
       </S.ButtonContainer>
     </S.BannerContainer>
